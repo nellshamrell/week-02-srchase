@@ -19,7 +19,7 @@ describe "Strings" do
 
       phrase = "The rain in Spain falls mainly on the plain"
 
-      phrase.swapcase.should eq "THE RAIN IN SPAIN FALLS MAINLY ON THE PLAIN"
+      phrase.swapcase.should eq "tHE RAIN IN sPAIN FALLS MAINLY ON THE PLAIN"
 
     end
 
@@ -34,7 +34,7 @@ describe "Integer" do
 
 	a_number = 4
 
-	a_number.odd?.should be true
+	a_number.odd?.should be false
     end
   end
 end
